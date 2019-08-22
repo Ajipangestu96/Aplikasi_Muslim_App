@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/cover_image"
+    tools:context=".DataDoa">
+
+    <TextView
+        android:id="@+id/getdoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doa"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/getarab"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="right"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/getbaca"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorwhite"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/getarti"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artinya: "
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"
+        android:background="@color/colorwhite"
+        android:gravity="left"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aplikasi_Muslim_App</string>
+    <string name="nomor_sertifikat">No Sertifikat :</string>
+    <string name="produsen">Produsen :</string>
+    <string name="berlaku_hingga">Berlaku Hingga :</string>
+    <string name="nama_produk">Nama Produk :</string>
+    <string name="cari_produk">Cari Produk :</string>
+</resources>
